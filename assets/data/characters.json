@@ -15,7 +15,7 @@
             "name" : "Character 2",
             "id" : "character-2",
             "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "image" : "https://karen.digitale-grafik.com/mmorpg/assets/img/test-char.png",
+            "image" : "../assets/img/test-char.png", /*"https://karen.digitale-grafik.com/mmorpg/assets/img/test-char.png",*/
             "attributes" : {
                 "power" : "1",
                 "technique" : "2"
@@ -26,7 +26,7 @@
             "name" : "Character 3",
             "id" : "character-3",
             "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "image" : "https://karen.digitale-grafik.com/mmorpg/assets/img/test-char.png",
+            "image" : "../assets/img/test-char.png",
             "attributes" : {
                 "power" : "1",
                 "technique" : "2"
@@ -37,7 +37,7 @@
             "name" : "Character 4",
             "id" : "character-4",
             "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "image" : "https://karen.digitale-grafik.com/mmorpg/assets/img/test-char.png",
+            "image" : "../assets/img/test-char.png",
             "attributes" : {
                 "power" : "1",
                 "technique" : "2"
@@ -48,7 +48,7 @@
             "name" : "Character 5",
             "id" : "character-5",
             "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "image" : "https://karen.digitale-grafik.com/mmorpg/assets/img/test-char.png",
+            "image" : "../assets/img/test-char.png",
             "attributes" : {
                 "power" : "1",
                 "technique" : "2"
