@@ -22,7 +22,7 @@
             <?php  include("./snippets/questionnaire.php"); ?>   
             <?php  include("./snippets/result.php"); ?>     
         </main> 
-        <button class="toggle-button"><!-- onclick="document.body.classList.remove('main');" -->Toggle</button>
+        <button class="toggle-button"><!-- onclick="document.body.classList.remove('main');" -->See Map</button>
         
     </body>
     <script src="./scripts/drag.js"></script>
