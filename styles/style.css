@@ -36,8 +36,10 @@ body {
 }
 
 .background {
-  width: 200%;
-  height: 200%;
+  /* transform:scale(5); */
+  zoom: 50%;
+  width: 100%;
+  height: 2000px;
   top: 0;
   left: 0;
   background-image: url(../assets/img/test-map.png);
@@ -55,7 +57,7 @@ main {
   max-width: 800px;
   width: 100%;
   padding: 2rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border-radius: var(--radius-1);
   /* background: var(--tertiary-color); */
 /* From https://css.glass */
@@ -65,14 +67,12 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
-
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 z-index: 10;
 border-radius: 10px;
-display: none;
 }
 
 h1 {
