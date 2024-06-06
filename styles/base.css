@@ -10,9 +10,22 @@
     --tertiary-color: #adb19c;
     --font-primary: 'font-primary';
     --font-secondary: 'font-secondary';
+    --radius-1: 2rem;
 }
     
 
 body {
     font-size: 1rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-primary)
+}
+
+h5, h6 {
+    font-family: var(--font-secondary)
+}
+
+p {
+    font-family: var(--font-secondary)
 }

@@ -22,6 +22,7 @@
             <?php  include("./snippets/questionnaire.php"); ?>   
             <?php  include("./snippets/result.php"); ?>     
         </main> 
+        <button class="toggle-button"><!-- onclick="document.body.classList.remove('main');" -->Toggle</button>
         
     </body>
     <script src="./scripts/handleQuestionnaire.js"></script>
