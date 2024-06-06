@@ -1,25 +1,46 @@
-const bgDiv = document.getElementById('background');
+// drag.js
 
-let isDragging = false;
-let lastX, lastY;
+document.addEventListener("DOMContentLoaded", function () {
+    const background = document.getElementById("background");
 
-bgDiv.addEventListener('mouseenter', (e) => {
-    isDragging = true;
-    lastX = e.clientX;
-    lastY = e.clientY;
-    bgDiv.style.cursor = 'grabbing';
-});
+    let isDragging = false;
+    let startX, startY, initialLeft, initialTop;
 
-bgDiv.addEventListener('mouseleave', () => {
-    isDragging = false;
-    bgDiv.style.cursor = 'grab';
-});
+    // Ensure the background is positioned correctly initially
+    const initializePosition = () => {
+        background.style.position = 'absolute';
+        background.style.left = '0px';
+        background.style.top = '0px';
+    };
 
-bgDiv.addEventListener('mousemove', (e) => {
-    if (!isDragging) return;
-    const walkX = e.clientX - lastX;
-    const walkY = e.clientY - lastY;
-    window.scrollBy(-walkX, -walkY);
-    lastX = e.clientX;
-    lastY = e.clientY;
+    initializePosition();
+
+    background.addEventListener("mousedown", function (e) {
+        isDragging = true;
+        startX = e.clientX;
+        startY = e.clientY;
+        const rect = background.getBoundingClientRect();
+        initialLeft = rect.left;
+        initialTop = rect.top;
+        document.body.style.cursor = "grabbing";
+    });
+
+    document.addEventListener("mousemove", function (e) {
+        if (isDragging) {
+            const dx = e.clientX - startX;
+            const dy = e.clientY - startY;
+            background.style.left = initialLeft + dx + "px";
+            background.style.top = initialTop + dy + "px";
+        }
+    });
+
+    document.addEventListener("mouseup", function () {
+        isDragging = false;
+        document.body.style.cursor = "default";
+    });
+
+    document.addEventListener("mouseleave", function () {
+        isDragging = false;
+        document.body.style.cursor = "default";
+    });
 });

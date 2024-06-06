@@ -36,17 +36,13 @@ body {
 }
 
 .background {
-  position: fixed;
-  width: 180%;
-  height: 180%;
+  width: 200%;
+  height: 200%;
   top: 0;
   left: 0;
   background-image: url(../assets/img/test-map.png);
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -1;
-  /* min-width: 100px;
-  min-height: 1000px; */
   position: absolute;
   cursor: grab; /* Changes cursor to grab hand */
 }
@@ -69,6 +65,13 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 10;
+border-radius: 10px;
 display: none;
 }
 
@@ -96,9 +99,11 @@ button {
 }
 
 /* Not need yet, maybe later */
-/* toggle-button {
-
-} */
+.toggle-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 .content-result__characters {
   display: flex;

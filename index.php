@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="./styles/style.css">
 
     </head>
-    <body class="active-intro">
+    <body class="active-intro" >
         <div id="background" class="background"></div>
 
         <h1>Choose your Character: Generative AI as an MMORPG</h1>
@@ -21,7 +21,7 @@
             <?php  include("./snippets/intro.php"); ?>     
             <?php  include("./snippets/questionnaire.php"); ?>   
             <?php  include("./snippets/result.php"); ?>     
-        </main> 
+        </main>
         <button class="toggle-button"><!-- onclick="document.body.classList.remove('main');" -->See Map</button>
         
     </body>
