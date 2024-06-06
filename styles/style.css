@@ -31,18 +31,28 @@ body {
   flex-direction: column;
   padding: 1rem;
   color: var(--secondary-color);
+  /* Prevents body scrolling */
+  /* overflow: hidden;  */
 }
 
 .background {
   position: fixed;
-  width: 100%;
-  height: 100%;
+  width: 180%;
+  height: 180%;
   top: 0;
   left: 0;
   background-image: url(../assets/img/test-map.png);
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
+  /* min-width: 100px;
+  min-height: 1000px; */
+  position: absolute;
+  cursor: grab; /* Changes cursor to grab hand */
+}
+
+#background:active {
+  cursor: grabbing; /* Changes cursor to grabbing hand when active */
 }
 
 main {
@@ -51,7 +61,10 @@ main {
   background: var(--tertiary-color);
   padding: 1rem;
   font-size: 2rem;
-  border-radius: var(--radius-1)
+  border-radius: var(--radius-1);
+
+  /* added by Oliver */
+  position: absolute;
 
 }
 

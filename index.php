@@ -13,7 +13,7 @@
 
     </head>
     <body class="active-intro">
-        <div class="background"></div>
+        <div id="background" class="background"></div>
 
         <h1>Choose your Character: Generative AI as an MMORPG</h1>
 
@@ -25,5 +25,6 @@
         <button class="toggle-button"><!-- onclick="document.body.classList.remove('main');" -->Toggle</button>
         
     </body>
+    <script src="./scripts/drag.js"></script>
     <script src="./scripts/handleQuestionnaire.js"></script>
 </html>
