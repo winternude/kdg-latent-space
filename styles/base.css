@@ -1,0 +1,16 @@
+
+/* @font-face {
+    font-family: "Erika";
+    src: url("/assets//fonts/G2-Erika-Mono.woff") format("opentype");
+} */
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: rgb(255, 255, 255);
+    --tertiary-color: #adb19c;
+}
+    
+
+body {
+    font-size: 1rem;
+}
