@@ -8,8 +8,8 @@
         <title></title>
         <link rel="stylesheet" href="./styles/reset.css">
         <link rel="stylesheet" href="./styles/base.css">
-        <link rel="stylesheet" href="./styles/style.css">
         <link rel="stylesheet" href="./styles/fonts.css">
+        <link rel="stylesheet" href="./styles/style.css">
 
     </head>
     <body class="active-intro">

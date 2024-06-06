@@ -1,43 +1,21 @@
 @font-face {
-    font-family: "font-primary--rg";
-    src: url("/frontend/assets_old/fonts/ApfelGrotezk-Regular.woff2") format("woff2");
+    font-family: "font-primary";
+    src: url("/assets/fonts/36DopeTrial-Regular.woff") format("woff2");
     /* src: url('/assets/fonts/insert-font-here') format('woff'); */
     /* src: url('/assets/fonts/insert-font-here') format('woff2'); */
     /* Variable fonts: */
     /* src: url('/assets/fonts/insert-font-here') format('truetype-variations'); */
   }
-  @font-face {
-    font-family: "font-primary--md";
-    src: url("/frontend/assets_old/fonts/ApfelGrotezk-Mittel.woff2") format("woff2");
-    /* src: url('/assets/fonts/insert-font-here') format('woff'); */
-    /* src: url('/assets/fonts/insert-font-here') format('woff2'); */
-    /* Variable fonts: */
-    /* src: url('/assets/fonts/insert-font-here') format('truetype-variations'); */
-  }
-  @font-face {
-    font-family: "font-primary--hglght";
-    src: url("/frontend/assets_old/fonts/ApfelGrotezk-Brukt.woff2") format("woff2");
-    /* src: url('/assets/fonts/insert-font-here') format('woff'); */
-    /* src: url('/assets/fonts/insert-font-here') format('woff2'); */
-    /* Variable fonts: */
-    /* src: url('/assets/fonts/insert-font-here') format('truetype-variations'); */
-  }
+
   @font-face {
     font-family: "font-secondary";
-    src: url("/frontend/assets_old/fonts/Isenheim_Fin.otf") format("opentype");
+    src: url("/assets/fonts/36DopeTrial-Regular.woff") format("opentype");
     /* src: url('/assets/fonts/insert-font-here') format('woff'); */
     /* src: url('/assets/fonts/insert-font-here') format('woff2'); */
     /* Variable fonts: */
     /* src: url('/assets/fonts/insert-font-here') format('truetype-variations'); */
   }
-  @font-face {
-    font-family: "font-secondary--hghlght";
-    src: url("/frontend/assets_old/fonts/Isenheim_Regulier.woff2") format("woff2"); /* !!!BROKEN!!! woff and otf both dont work */
-    /* src: url('/assets/fonts/insert-font-here') format('woff'); */
-    /* src: url('/assets/fonts/insert-font-here') format('woff2'); */
-    /* Variable fonts: */
-    /* src: url('/assets/fonts/insert-font-here') format('truetype-variations'); */
-  }
+
   @font-face {
     font-family: "font--fallback";
     src: url("/frontend/assets_old/fonts/DingsbumsBats.ttf") format("truetype-variations");

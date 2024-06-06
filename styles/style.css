@@ -2,6 +2,10 @@
   display: none;
 }
 
+.content-intro {
+  font-family: var(--font-primary);
+}
+
 body.active-intro .content-intro {
   display: block;
 }
